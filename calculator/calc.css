@@ -1,0 +1,55 @@
+    .light{
+     background: #6c757d !important;
+    }
+    .light .boo{
+        background-color: #bbc1c6 !important;
+    }
+    .light input{
+     background-color: #bbc1c6 !important;
+    }
+
+#themeToggle{
+    margin-top: 3rem;
+    margin-left: 60rem ;
+}
+
+    .dark{
+     background: #3d3c3c !important;
+    }
+    .dark .boo{
+        background-color: #353434 !important;
+        box-shadow: 0 1rem 3rem rgba(200, 199, 200, .176) !important;
+    }
+    .dark input{
+     background-color: #353434 !important;
+    }
+
+
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    input{
+        font-size: 3rem !important;
+        height: 4rem;
+        margin-bottom: 1.3rem !important;
+        
+        border: none !important;
+        outline: none !important;
+        color: #ffffff !important;
+       }
+    h1{
+        font-weight: 700 !important;
+        margin-bottom: 2rem !important;
+        color: #ffffff !important;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 3.5rem !important;
+    }
+    button{
+        font-size: 1.5rem !important;
+    }

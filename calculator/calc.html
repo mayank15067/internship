@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body class="light">
+<button id="themeToggle" class="btn btn-dark mb-3">Dark Mode</button>
+  <div class="container mt-4 shadow-lg p-3 mb-5  rounded boo" style="max-width: 600px;">
+    <h1 class="text-center">CALCULATOR</h1>
+
+    <div class="row g-2 text-center">
+
+      <div class="col-12">
+        <input type="text" id="input" class="form-control text-end">
+      </div>
+
+      <div class="col-3 "><button id="clear"  class="btn btn-secondary w-100">AC</button></div>
+      <div class="col-3"><button class="add btn btn-secondary w-100">%</button></div>
+      <div class="col-3"><button id="delete" class="btn btn-secondary w-100"><i class="fa-solid fa-delete-left"></i></button></div>
+      <div class="col-3"><button class="add btn btn-secondary w-100">/</button></div>
+
+      <div class="col-3"><button class="add btn btn-secondary w-100">7</button></div>
+      <div class="col-3"><button class="add btn btn-secondary w-100">8</button></div>
+      <div class="col-3"><button class="add btn btn-secondary w-100">9</button></div>
+      <div class="col-3"><button class="add btn btn-secondary w-100">*</button></div>
+
+      <div class="col-3"><button class="add btn btn-secondary w-100">4</button></div>
+      <div class="col-3"><button class="add btn btn-secondary w-100">5</button></div>
+      <div class="col-3"><button class="add btn btn-secondary w-100">6</button></div>
+      <div class="col-3"><button class="add btn btn-secondary w-100">-</button></div>
+
+      <div class="col-3"><button class="add btn btn-secondary w-100">1</button></div>
+      <div class="col-3"><button class="add btn btn-secondary w-100">2</button></div>
+      <div class="col-3"><button class="add btn btn-secondary w-100">3</button></div>
+      <div class="col-3"><button class="add btn btn-secondary w-100">+</button></div>
+
+      <div class="col-3"><button class="add btn btn-secondary w-100">00</button></div>
+      <div class="col-3"><button class="add btn btn-secondary w-100">0</button></div>
+      <div class="col-3"><button class="add btn btn-secondary w-100">.</button></div>
+      <div class="col-3"><button id="evalu"  class="btn btn-primary w-100">=</button></div>
+    </div>
+  </div>
+
+  <script src="calc.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
